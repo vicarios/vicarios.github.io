@@ -365,8 +365,7 @@ a#logo {
 #social-icons {
   padding:0;
   position: fixed;
-  top: 20%;
-  transform: translateY(-50%);
+  top: 200px;
   right:0;
   z-index: 199;
 }
