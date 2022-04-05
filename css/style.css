@@ -48,14 +48,14 @@
 .my-container {
   margin: 1%;
   padding: 10px 10px 10px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 1%;
 }
 
 .highlight-container {
   margin: 1%;
   padding: 20px 15px 10px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 2%;
 
   -moz-transition: all 0.2s ease-out;
