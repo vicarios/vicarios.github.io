@@ -55,6 +55,11 @@
   display: inline-block;
   margin-left: 40px;
 }
+@media (max-width: 769px) {
+  .tab {
+    margin-left: 0px;
+  }
+}
 
 .my-container {
   margin: 1%;
@@ -127,6 +132,12 @@
 
 #team .team-block img {
   width: 100%;
+
+  image-rendering: -moz-crisp-edges;         /* Firefox */
+  image-rendering:   -o-crisp-edges;         /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
 
 /* Default Padding : 20 */
