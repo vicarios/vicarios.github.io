@@ -61,6 +61,16 @@
   }
 }
 
+.tab-right {
+  display: inline-block;
+  margin-right: 40px;
+}
+@media (max-width: 769px) {
+  .tab {
+    margin-right: 0px;
+  }
+}
+
 .my-container {
   margin: 1%;
   padding: 10px 10px 10px;
@@ -85,6 +95,26 @@
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+.padding-bottom{
+  display: block;
+  margin-bottom: 1.0em;
+}
+
+.half-border:before {
+  content : "";
+  position: absolute;
+  left    : 0;
+  top  : 25%;
+  width  : 3px;
+  height   : 40%;  /* or 100px */
+  background: rgb(255, 255, 255);
+
+}
+@media (max-width: 769px) {
+  .half-border:before {
+    display: none;
+  }
+}
 
 
 
