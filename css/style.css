@@ -74,14 +74,14 @@
 .my-container {
   margin: 1%;
   padding: 10px 10px 10px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(15, 40, 78, 0.50);
   border-radius: 1%;
 }
 
 .highlight-container {
   margin: 1%;
   padding: 20px 15px 10px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(15, 40, 78, 0.5);
   border-radius: 2%;
 
   -moz-transition: all 0.2s ease-out;
@@ -92,7 +92,7 @@
 
 .highlight-container:hover {
   color: black;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.50);
 }
 
 .padding-bottom{
@@ -104,9 +104,9 @@
   content : "";
   position: absolute;
   left    : 0;
-  top  : 25%;
+  top  : 35%;
   width  : 3px;
-  height   : 40%;  /* or 100px */
+  height   : 30%;  
   background: rgb(255, 255, 255);
 
 }
