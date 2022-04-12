@@ -162,7 +162,7 @@
                 navigationPosition: 'right',
                 scrollOverflow: true,
                 responsiveWidth: 768,
-                responsiveHeight: 3000, //default value: 600
+                responsiveHeight: 6000, //default value: 600
                 responsiveSlides: true
             });
         }
