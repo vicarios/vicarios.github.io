@@ -1,4 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url("https://use.typekit.net/lnt5afl.css");
 
 
 /* Logo Section
@@ -14,6 +21,21 @@
 
 }
 
+body {
+  /* font-family: 'Aleo', serif; this is for content */
+
+  /* font-family: 'Roboto', sans-serif; */
+
+  /* font-family: 'Playfair Display', serif; this is for menus*/   
+
+  /* font-family: droid-sans, sans-serif; */
+
+
+}
+
+.h6 {
+    font-family: 'Playfair Display', serif;
+}
 
 .v-logo {
   font-family: andromeda;
