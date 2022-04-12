@@ -117,7 +117,19 @@
 }
 
 
+.very-small-text {
+  font-size: 12px;
+}
+@media (max-width: 1201px) {
+  .very-small-text {
+    display: none;
+  }
+  }
 
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  }
 
 
 /* Background Section
