@@ -35,10 +35,18 @@ body {
 
 }
 
-p{
+p, li{
   font-weight: 375;
   font-size: 16px;
   letter-spacing: 0.05em;
+  text-align: left;
+}
+
+@media (max-width: 769px) {
+  li {
+    list-style-type: none;
+    margin: 20px 0;
+  }
 }
 
 strong {
@@ -46,14 +54,24 @@ strong {
 }
 
 
-span, h1, h2, h3, h4, h5 ,h6 {
+h1, h2, h3, h4, h5 {
   font-family: 'Aleo', serif; 
   font-variant: small-caps;
   letter-spacing: 0.085em;
 }
 
+h6 {
+  font-family: 'Aleo', serif; 
+  letter-spacing: 0.085em;
+}
+
+a {
+  color: aqua;
+}
+
 .v-logo {
   font-family: andromeda;
+  font-variant: small-caps;
 }
 
 .iit-email {
