@@ -87,7 +87,8 @@ h6 {
   line-height: 1.2;
   margin: 0 0 20px;
   font-weight: 600;
-  text-transform:uppercase;
+  /* text-transform:uppercase; */
+
 }
 h1,
 h2 {
@@ -136,10 +137,10 @@ video {
   content: '';
   opacity: 0.75;
   background: #0073B3; /* Old browsers */
-  background: -moz-linear-gradient(top, #0073B3 0%, #0073B3 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #0073B3 0%,#0073B3 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #0073B3 0%,#0073B3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0073B3', endColorstr='#0073B3',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top, #0073B3 0%, #00b309 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0073B3 0%,#00b309 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #0073B3 0%,#00b309 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0073B3', endColorstr='#00b309',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
   top:0;
@@ -521,7 +522,7 @@ a#logo {
 }
 .title-block span {
   font-size: 24px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 300;
 }
 .services-list .item {
