@@ -35,6 +35,10 @@ body {
 
 }
 
+.white-text{
+  color: white;
+}
+
 p, li{
   font-weight: 375;
   font-size: 16px;
@@ -188,6 +192,23 @@ a {
   object-fit: cover;
   }
 
+
+.image-video .play-image {
+  position: absolute;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.5;
+  transition: .2s linear;
+}
+
+.image-video .play-image:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
 
 /* Background Section
 --------------------------------*/
