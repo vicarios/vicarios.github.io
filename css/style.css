@@ -62,6 +62,9 @@ strong {
   font-weight: 600;
 }
 
+.small-caps{
+  font-variant: small-caps;
+}
 
 h1, h2, h3, h4, h5 {
   font-family: 'Aleo', serif; 
@@ -76,6 +79,13 @@ h6 {
 
 a {
   color: aqua;
+}
+
+hr {
+  border: 1px solid white;
+  text-align: center;
+  width: 75%;
+  
 }
 
 .v-logo {
@@ -206,7 +216,7 @@ a {
   left: 0;
   right: 0;
   text-align: center;
-  opacity: 0.5;
+  opacity: 0.75;
   transition: .2s linear;
 }
 
