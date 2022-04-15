@@ -35,8 +35,20 @@ body {
 
 }
 
+.my-container-team {
+  /* margin: 0px 50px; */
+  padding: 5%;
+  background-color: rgba(15, 40, 78, 0.50);
+  /* border-radius: 1em/1em; */
+}
+
 .header-color{
   background-color: rgba(15, 40, 78, 0.75);
+
+}
+
+.margin-bottom {
+  margin: 25px;
 }
 
 
