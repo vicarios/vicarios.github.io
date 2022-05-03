@@ -35,6 +35,10 @@ body {
 
 }
 
+.aleo-font {
+  font-family: 'Aleo', serif; 
+}
+
 .my-container-team {
   /* margin: 0px 50px; */
   padding: 7.5%;
@@ -253,6 +257,18 @@ hr {
   opacity: 1;
 }
 
+.keywords {
+  position : absolute;
+  bottom: 20px;
+  
+}
+@media (max-width: 1201px) {
+  .keywords {
+    display: none;
+  }
+}
+
+
 /* Background Section
 --------------------------------*/
 
@@ -291,12 +307,23 @@ hr {
   overflow: hidden;
   position: relative;
   width: 100%;
-  color: black;
+  color: rgb(255, 255, 255);
 }
-
+@media (max-width: 1201px) {
+  #team .team-block {
+    height: 200px;
+  }
+}
 @media (max-width: 991px) {
   #team .team-block {
     margin-bottom: 30px;
+    height: 254px;
+  }
+}
+@media (max-width: 768px) {
+  #team .team-block {
+    margin-bottom: 30px;
+    height: 244px;
   }
 }
 
@@ -312,7 +339,7 @@ hr {
 
 /* Default Padding : 20 */
 #team .team-block .team-content {
-  background: #fff none repeat scroll 0 0;
+  background: rgba(68, 68, 68, 0.658) none repeat scroll 0 0;
   bottom: 0;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
   bottom: -147px;
@@ -362,6 +389,12 @@ hr {
   bottom: -25px;  
   transition: all 0.5s ease-in-out 0s;
 }
+@media (max-width: 1201px) {
+  #team .team-block .team-content {
+    bottom: -25px;  
+    transition: all 0.5s ease-in-out 0s;
+  }
+}
 
 #cf {
   position:relative;
@@ -388,8 +421,15 @@ hr {
   opacity:0;
 }
 
+
 #cf a img:hover {
   opacity:0;
   
+}
+@media (max-width: 1201px) {
+  #cf a img{
+    opacity:0;
+    
+  }
 }
 
