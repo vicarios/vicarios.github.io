@@ -138,7 +138,8 @@ hr {
 }
 
 .v-logo-image {
-  max-width: 30%;
+  display: inline-flex;
+  max-width: 700px;
 }
 
 @media (max-width: 1201px) {
@@ -395,6 +396,15 @@ hr {
     transition: all 0.5s ease-in-out 0s;
   }
 }
+@media (max-width: 1201px) {
+  #team .team-block .team-content h4{
+    font-size: large;
+  }
+  #team .team-block .team-content span{
+    font-size: small;
+  }
+}
+
 
 #cf {
   position:relative;

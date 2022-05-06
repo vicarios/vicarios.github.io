@@ -362,12 +362,23 @@ a#logo {
 #social-icons {
   padding:0;
   position: fixed;
-  top: 150px;
+  top: 100px;
   right:0;
   z-index: 199;
   width:240px;
   height:100px;
 }
+@media (max-width: 1201px) {
+  #social-icons {
+    top: 150px;
+  }
+}
+@media (max-width: 769px) {
+  #social-icons {
+    top: 100px;
+  }
+}
+
 .social-icons {
   margin:0;
   padding:0;
