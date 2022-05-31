@@ -134,13 +134,13 @@
         if ($('.testimonials-slider').length) {
             $('.testimonials-slider').owlCarousel({
                 loop: true,
-                nav: false,
-                dots: true,
+                nav: true,
+                dots: false,
                 items: 1,
                 margin: 30,
-                autoplay: true,
-                smartSpeed: 700,
-                autoplayTimeout: 7000,
+                autoplay: false,
+                smartSpeed: 1000,
+                autoplayTimeout: 10000, //Duration 10 sec if autoplay: true
                 responsive: {
                     0: {
                         items: 1,

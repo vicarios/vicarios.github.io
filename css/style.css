@@ -265,9 +265,19 @@ hr {
 }
 @media (max-width: 1201px) {
   .keywords {
-    display: none;
+    position :static;
   }
 }
+
+.news-date {
+  position : absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 10px;
+}
+
+
+
 
 
 /* Background Section
