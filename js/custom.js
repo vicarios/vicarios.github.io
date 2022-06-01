@@ -155,7 +155,7 @@
         if ($('.fullpage-default').length) {
             var myFullpage = new fullpage('.fullpage-default', {
                 licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
-                anchors: ['home', 'team-members', 'research', 'projects', 'funding', 'publications', 'news-gallery', 'funding-colaborations', 'contacts', 'slide10'],
+                anchors: ['home', 'team-members', 'research', 'projects', 'funding', 'publications', 'news-gallery', 'collaborations', 'contacts', 'slide10'],
                 menu: '#nav',
                 lazyLoad: true,
                 navigation: true,
