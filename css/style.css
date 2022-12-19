@@ -353,7 +353,7 @@ hr {
   background: rgba(68, 68, 68, 0.658) none repeat scroll 0 0;
   bottom: 0;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
-  bottom: -147px;
+  bottom: -25px; /*default: -147 */
   padding: 10px 0;
   position: absolute;
   width: 100%;
