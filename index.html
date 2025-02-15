@@ -96,30 +96,69 @@
                 </div>
             </div>
 
-            <div class="section animated-row" data-section="home">
+  
+            <div class="section animated-row" data-section="home" style="position: relative; z-index: 10; min-height: 100vh;">
                 <div class="section-inner">
                     <div class="welcome-box"> 
-                        <!-- <h1 class="welcome-title animate v-logo" data-animate="fadeInUp">VICARIOS</h1> -->
-                        <!-- <div><img src="images/logos/IIT-v4-logo-advr-t2.png" class="rounded float-left iit-logo-image" alt=""></div> -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img src="images/logos/vicarios-t4-3.png" class="mb-5 v-logo-image crisp-image" alt="">
+            
+                        <!-- Swiper Container -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide 1: Existing Content -->
+                                <div class="swiper-slide">
+                                    <div class="text-center">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="images/logos/vicarios-t4-3.png" class="mb-5 v-logo-image crisp-image" alt="Vicarios Logo">
+                                            </div>
+                                        </div>
+                                        <span class="animate" data-animate="fadeInUp">\ vɪ‧kɑ‧rɪ‧ɒs \</span> <br>
+                                        <div class="row justify-content-center mt-5">
+                                            <div class="col-md-8 text-justify">
+                                                <span class="animate mt-5 text-justify" data-animate="fadeInUp">
+                                                    We aim to stimulate users to <em>vicariously</em> experience a remote environment, real or virtual. Through approaches in immersive mixed reality, telerobotics, and biomechanical simulations and control, the objective is to advance the understanding of human interaction with remote environments.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- Slide 2: IEEE Spectrum -->
+                                <div class="swiper-slide">
+                                    <div class="text-center">
+                                        <h2 class="mb-4">Featured on IEEE Spectrum</h2>
+                                        <a href="https://spectrum.ieee.org/telepresence-robot" target="_blank">
+                                            <img src="images/news/IEEE_Spectrum.png" alt="IEEE Spectrum">
+                                        </a>
+                                    </div>
+                                </div>
+            
+                                <!-- Slide 3: Second Image -->
+                                <div class="swiper-slide">
+                                    <div class="text-center">
+                                        <h2 class="mb-4">Our Research in Action</h2>
+                                        <a href="https://www.vigilfuoco.tv/sites/default/files/noi_rivista/pdf/Noi_35_web.pdf" target="_blank">
+                                            <img src="images/news/noi_vigili.PNG" alt="Vigili del Fuoco">
+                                        </a>
+                                    </div>
+                                </div>
+            
+                                           
                             </div>
-                            
+                            <!-- Navigation Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
-                        <span class="animate " data-animate="fadeInUp">\ vɪ‧kɑ‧rɪ‧ɒs \</span> <br>
-                        <div class="row justify-content-center mt-5">
-                            <div class="col-md-8 text-justify">
-                                <span class="animate mt-5 text-justify" data-animate="fadeInUp">We aim to stimulate users to <em>vicariously</em> experience a remote environment, real or virtual. Through approaches in immersive mixed reality, telerobotics, and biomechanical simulations and control, the objective is to advance the understanding of human interaction with remote environments. </span>
-
-                            </div>
+            
+                        <!-- Scroll Down -->
+                        <div class="scroll-down next-section animate" data-animate="fadeInUp">
+                            <img src="images/mouse-scroll.png" alt="Scroll Down Icon"><span>Scroll Down</span>
                         </div>
-                        <div class="scroll-down next-section animate data-animate="fadeInUp><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
+            
                     </div>
                 </div>
-                
             </div>
-
 
             <!--  -->
 
@@ -1262,6 +1301,80 @@
 
     <script src="js/custom.js"></script>
 
+    <!-- Include Swiper CSS & JS -->
 
+<!-- Include Swiper CSS & JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<style>
+/* Ensure the section takes full height to prevent overlap */
+.section {
+    min-height: 100vh;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Fix overlapping by ensuring proper z-index */
+.section-inner {
+    position: relative;
+    z-index: 10;
+}
+
+/* Swiper Fixes */
+.swiper {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px; /* Ensures space for navigation */
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 80vh; /* Ensures slider doesn't shrink */
+}
+
+/* Image Styling */
+.swiper-slide img {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide img:hover {
+    transform: scale(1.05);
+}
+
+/* Fix for Scroll Down Button */
+.scroll-down {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+</style>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+      delay: 4000, // Auto-slide every 4 seconds
+      disableOnInteraction: false,
+    },
+  });
+</script>
   </body>
 </html>
