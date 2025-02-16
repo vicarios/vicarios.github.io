@@ -28,6 +28,11 @@
 
     <link rel="stylesheet" href="css/responsive.css">
 
+      <!-- Swiper CSS (From CDN) -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+     
+    <link href="css/slider_styles.css" rel="stylesheet">
+    
     <!-- Custom Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -127,7 +132,6 @@
                                 <!-- Slide 2: IEEE Spectrum -->
                                 <div class="swiper-slide">
                                     <div class="text-center">
-                                        <h2 class="mb-4">Featured on IEEE Spectrum</h2>
                                         <a href="https://spectrum.ieee.org/telepresence-robot" target="_blank">
                                             <img src="images/news/IEEE_Spectrum.png" alt="IEEE Spectrum">
                                         </a>
@@ -137,7 +141,6 @@
                                 <!-- Slide 3: Second Image -->
                                 <div class="swiper-slide">
                                     <div class="text-center">
-                                        <h2 class="mb-4">Our Research in Action</h2>
                                         <a href="https://www.vigilfuoco.tv/sites/default/files/noi_rivista/pdf/Noi_35_web.pdf" target="_blank">
                                             <img src="images/news/noi_vigili.PNG" alt="Vigili del Fuoco">
                                         </a>
@@ -146,9 +149,7 @@
             
                                            
                             </div>
-                            <!-- Navigation Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                         
                         </div>
             
                         <!-- Scroll Down -->
@@ -1307,83 +1308,12 @@
     <script src="js/jquery.inview.min.js"></script>
 
     <script src="js/form.js"></script>
+    
 
     <script src="js/custom.js"></script>
+      <!-- Swiper JS (From CDN) -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper-config.js"></script>
 
-    <!-- Include Swiper CSS & JS -->
-
-<!-- Include Swiper CSS & JS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-<style>
-/* Ensure the section takes full height to prevent overlap */
-.section {
-    min-height: 100vh;
-    padding: 100px 0;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Fix overlapping by ensuring proper z-index */
-.section-inner {
-    position: relative;
-    z-index: 10;
-}
-
-/* Swiper Fixes */
-.swiper {
-    width: 100%;
-    height: auto;
-    padding-bottom: 50px; /* Ensures space for navigation */
-}
-
-.swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    min-height: 80vh; /* Ensures slider doesn't shrink */
-}
-
-/* Image Styling */
-.swiper-slide img {
-    max-width: 80%;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease-in-out;
-}
-
-.swiper-slide img:hover {
-    transform: scale(1.05);
-}
-
-/* Fix for Scroll Down Button */
-.scroll-down {
-    text-align: center;
-    margin-top: 20px;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-</style>
-
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    autoplay: {
-      delay: 4000, // Auto-slide every 4 seconds
-      disableOnInteraction: false,
-    },
-  });
-</script>
-  </body>
+</body>
 </html>
