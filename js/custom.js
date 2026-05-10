@@ -153,18 +153,30 @@
             });
         }
         if ($('.fullpage-default').length) {
-            var myFullpage = new fullpage('.fullpage-default', {
-                licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
-                anchors: ['home', 'team-members', 'research', 'projects', 'funding', 'publications', 'news-gallery', 'collaborations', 'contacts', 'slide10'],
-                menu: '#nav',
-                lazyLoad: true,
-                navigation: true,
-                navigationPosition: 'right',
-                scrollOverflow: true,
-                responsiveWidth: 768,
-                responsiveHeight: 6000, //default value: 600
-                responsiveSlides: true
-            });
+        var myFullpage = new fullpage('#fullpage', {
+            licenseKey: 'C7F41B00-5E824594-9A5EFB99-B556A3D5',
+
+            anchors: [
+                'home',
+                'team-members',
+                'research',
+                'projects',
+                'funding',
+                'publications',
+                'news-gallery',
+                'collaborations',
+                'contacts'
+            ],
+
+            menu: '#nav',
+            lazyLoad: true,
+            navigation: true,
+            navigationPosition: 'right',
+            scrollOverflow: true,
+
+            responsiveWidth: 768,
+            responsiveHeight: 6000
+        });            
         }
         $(document).on('click', '.navbar-toggle', function() {
             $('.navbar-collapse').slideToggle(300);

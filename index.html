@@ -81,9 +81,7 @@
           <source src="images/Video_2.mp4" type="video/mp4">
         </video>
 
-        <div id="fullpage" class="fullpage-default">
-
-
+       
             <div id="social-icons">
                 <div class="text-right">
                     <ul class="social-icons ">
@@ -101,8 +99,10 @@
                 </div>
             </div>
 
-  
-            <div class="section animated-row" data-section="home" style="position: relative; z-index: 10; min-height: 100vh;">
+   <div id="fullpage" class="fullpage-default">
+
+
+            <div class="section animated-row" data-anchor="home" style="position: relative; z-index: 10; min-height: 100vh;">
                 <div class="section-inner">
                     <div class="welcome-box"> 
             
@@ -165,17 +165,15 @@
 
             <!-- ============= My Section (team) =========== -->
 
-            <div class="section animated-row" data-section="team-members">
+            <div class="section animated-row" data-anchor="team-members">
                 <div class="section-inner">
-                    <div class="row justify-content-center">
-                        
+                    <div class="row justify-content-center">                        
                         <div class="col-md-8 wide-col-laptop">
                             <div class="title-block " data-animate="">
                                 <span>TEAM</span>
                                 <h2></h2>
                             </div>
                         </div>
-
                     </div>
 
                         <section id="team" class="padd-section text-center wow ">
@@ -423,22 +421,16 @@
 
                     </div>
                 
-                
-                    <div class="section-inner">
-                        <div class="row justify-content-center">
-                            
+                        <div class="row justify-content-center">                            
                             <div class="col-md-8 wide-col-laptop">
                                 <div class="title-block " data-animate="">
                                     <span>Professors and Advisors</span>
                                     <h2></h2>
                                 </div>
-                            </div>
-    
-                        </div>
-    
+                            </div>    
+                        </div>    
                             <section id="team" class="padd-section text-center wow ">
-                                <div class="container">
-                                    
+                                <div class="container">                                 
                                      
                                     <div class="row form-group justify-content-center">
     
@@ -489,8 +481,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                
-    
                                         <div class="col-10 col-md-5 col-lg-3">
                                             <div class="team-block bottom">
                                             <div id="">
@@ -511,12 +501,8 @@
                                                 </a>
                                             </div>
                                             </div>
-                                        </div>
-                                          
-    
+                                        </div>   
                                     </div>
-                                       
-                        
                                     <div class="row form-group justify-content-center">
     
                                         <div class="col-10 col-md-12 col-lg-12 ">
@@ -588,9 +574,9 @@
                             </section>
     
                         </div>
-                    </div>
+                    
 
-            <div class="section animated-row background-solid-color" data-section="research">
+            <div class="section animated-row background-solid-color" data-anchor="research">
                 <div class="section-inner">
                     <div class="about-section my-container">
                         <div class="row justify-content-center">
@@ -625,7 +611,7 @@
             </div>
 
 
-            <div class="section animated-row background-solid-color" data-section="projects">
+            <div class="section animated-row background-solid-color" data-anchor="projects">
                 <div class="section-inner ">
                     <div class="row justify-content-center">
                         
@@ -760,12 +746,8 @@
                     </div>
                 </div>
             </div>
-
-          
-
-                <div class="section animated-row background-solid-color" data-section="funding">
-                    <div class="section-inner ">
-                        
+                <div class="section animated-row background-solid-color" data-anchor="funding">
+                    <div class="section-inner ">                        
                         <div class="col-md-12 wide-col-laptop">
                             <div class="title-block " data-animate="">
                                 <span>FUNDED PROJECTS</span>
@@ -945,13 +927,8 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-                <div class="section animated-row background-solid-color" data-section="publications">
+                <div class="section animated-row background-solid-color" data-anchor="publications">
                     <div class="section-inner">
-
                         <div class="col-md-12 wide-col-laptop">
                             <div class="title-block " data-animate="">
                                 <span>PUBLICATIONS</span>
@@ -961,9 +938,6 @@
 
                         <div class="about-section my-container">
                             <div class="row justify-content-center">
-
-
-
                                 <div class="col-lg-11 wide-col-laptop ">
                                     <div class="row">
                                         <div class="col-md-12">
@@ -984,8 +958,18 @@
                                                       <div class=" " data-animate="">
                                                           <span> </span>
                                                           <ul>
-                                                              <li>Olmo Franco et al., “Telepresence in Construction Sites: Usability Study of a VR-Based Environment for Working in Heights”, 2nd IEEE Conference on Telepresence, TELEPRESENCE 2025, September 9, 2025, Leiden, Netherlands. &lt<a href="https://vicarios.github.io/#publications" target="_blank">pdf</a>&gt &lt<a href="bibtex/Franco2025telepresence.bib">bibtex</a>&gt</li>
-                                                              <li>Natnael Berhanu et al., “MiXR-Intent: Intention Prediction for Immersive Remote Encountered-Type Haptics”, 2nd IEEE Conference on Telepresence, TELEPRESENCE 2025, September 9, 2025, Leiden, Netherlands. &lt<a href="https://vicarios.github.io/#publications" target="_blank">pdf</a>&gt &lt<a href="bibtex/takele2025mixrinteract.bib">bibtex</a>&gt</li>
+                                                                <li>
+                                                                    Olmo Franco et al., “Telepresence in Construction Sites: Usability Study of a VR-Based Environment for Working in Heights”,
+                                                                    2nd IEEE Conference on Telepresence, TELEPRESENCE 2025, September 9, 2025, Leiden, Netherlands.
+                                                                    &lt;<a href="bibtex/Franco2025telepresence.pdf" target="_blank">pdf</a>&gt;
+                                                                    &lt;<a href="bibtex/Franco2025telepresence.bib" target="_blank">bibtex</a>&gt;
+                                                                </li>                                                              
+                                                              <li>
+                                                                    Natnael Berhanu et al., “MiXR-Intent: Intention Prediction for Immersive Remote Encountered-Type Haptics”,
+                                                                    2nd IEEE Conference on Telepresence, TELEPRESENCE 2025, September 9, 2025, Leiden, Netherlands.
+                                                                    &lt;<a href="bibtex/takele2025mixerintent.pdf" target="_blank">pdf</a>&gt;
+                                                                    &lt;<a href="bibtex/takele2025mixrintent.bib" target="_blank">bibtex</a>&gt;
+                                                                </li>                                                              
                                                               <li>Natnael Berhanu et al., “MiXR-Interact: Mixed Reality Interaction Dataset for Gaze, Hand, and Body”, In HRI 2025 Workshop VAM-HRI, March 1, 2025, Melbourne, Australia. &lt<a href="https://vicarios.github.io/#publications" target="_blank">pdf</a>&gt &lt<a href="bibtex/takele2025mixerintent.bib">bibtex</a>&gt</li>
                                                               <li>Ahmed et al., “From Fields to Splats: A Cross-Domain Survey of Real-Time Neural Scene Representations”, arXiv preprint arXiv:2509.23555. &lt<a href="https://vicarios.github.io/#publications" target="_blank">pdf</a>&gt &lt<a href="bibtex/ahmad2025fields.bib">bibtex</a>&gt</li>
                                                               
@@ -1074,7 +1058,7 @@
                 </div>
 
 
-                <div class="section animated-row background-solid-color" data-section="news-gallery">
+                <div class="section animated-row background-solid-color" data-anchor="news-gallery">
                     <div class="section-inner">
                         <div class="title-block  d-block" data-animate="">
                             <span>NEWS / GALLERY</span>
@@ -1106,7 +1090,7 @@
                                                                 <a href="https://iit.taleo.net/careersection/ex/jobdetail.ftl?lang=en&job=2400004A"><span class="">1. Two Post-doctoral Positions in Remote Robotic Teleoperation and Immersive Interfaces</span></a> <br>
                                                                 <a href="https://iit.taleo.net/careersection/ex/jobdetail.ftl?lang=en&job=2400004C"><span class="">2. SOFTWARE TECHNICIAN in Mixed Reality Software Development</span></a> <br>
                                                                 <a href="https://iit.taleo.net/careersection/ex/jobdetail.ftl?lang=en&job=2400004B"><span class="">3. RESEARCH FELLOW in Robotic Teleoperation and 3D Vision </span></a> <br> <br>
-                                                                <p>If interested <a href="#contact-us">contact us</a> through email</p>
+                                                                <p>If interested <a href="#contacts">contact us</a> through email</p>
                                                             </div>
                                                             <span class="news-date">December, 2022</span>
                                                         </div>
@@ -1163,11 +1147,6 @@
                                                     </a>                                          
                                                 </div>
                                             </div>
-
-
-
-
-
                                         </div>
                                     </div>
                                 </div>
@@ -1178,7 +1157,7 @@
 
 
 
-                <div class="section animated-row background-solid-color" data-section="collaborations">
+                <div class="section animated-row background-solid-color" data-anchor="collaborations">
                     <div class="section-inner">
 
                         <div class="col-md-12 wide-col-laptop">
@@ -1190,9 +1169,6 @@
 
                         <div class="about-section my-container">
                             <div class="row justify-content-center">
-
-
-
                                 <div class="col-lg-11 wide-col-laptop ">
                                     <div class="row">
                                         <div class="col-md-6">
@@ -1256,7 +1232,7 @@
                 </div>
 
 
-                <div id="contact-us" class="section animated-row background-solid-color" data-section="contacts">
+                <div id="contact-us" class="section animated-row background-solid-color" data-anchor="contacts">
                     <div class="section-inner">
                         <div class="title-block " data-animate="">
                             <span></span>
@@ -1290,11 +1266,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-                
             </div>
             <!-- ============= End Of My Section =======  -->
 
