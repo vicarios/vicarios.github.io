@@ -1,0 +1,23 @@
+site_name: IEEE Telepresence Initiative
+site_url: https://vicarios.github.io/documentation/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Publications: publications.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
