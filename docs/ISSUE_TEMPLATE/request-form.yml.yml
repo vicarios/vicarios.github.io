@@ -1,0 +1,21 @@
+name: Documentation Feedback
+description: Report an issue or suggest an edit for the docs.
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: How can we reach you if we have questions?
+      placeholder: email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Description
+      description: What part of the documentation needs attention?
+      placeholder: Tell us what's wrong...
+    validations:
+      required: true

@@ -13,11 +13,17 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Software Plugins: Software-plugins.md
   - Publications: publications.md
-  - Contact: contact.md
+  - Contact: Contact.md
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
   - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences # Recommended for code blocks
