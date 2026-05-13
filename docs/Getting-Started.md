@@ -1,7 +1,14 @@
 # 2026 Summer School on Telerobotics and Cyborg Technologies
 
-![alt text](image.png)
+#Olmo UI concepts for Teleoperators
 
-Welcome to the documentation page of the 2026 IEEE Summer School on Telerobotics and Cyborg Technologies!
+- Theoretical part of UI design ≈(2.5 hours):
+- User-Centred Design
+- Gestalt Principles of Design
+- Atomic design method
+- 10 Usability Heuristics for User Interface Design
+- Dark mode UI design
 
-This is a joint effort between the IEEE Systems, Man, and Cybernetics Society, the Future Directions Initiative on Telepresence, and the Robotics and Automation Society.
+#Mohammad and Yonas about unreal
+
+![alt text](image_2.png)
