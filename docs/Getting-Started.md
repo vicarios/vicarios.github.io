@@ -47,3 +47,6 @@ Recommended starting points:
 - [John V. Draper, David B. Kaber, and John M. Usher, "Telepresence" (1998)](https://journals.sagepub.com/doi/10.1518/001872098779591386)
 - [Kwan Min Lee, "Presence, Explicated" (2004)](https://academic.oup.com/ct/article-abstract/14/1/27/4110793)
 - [Irene Rae, Gina Venolia, John C. Tang, and David Molnar, "A Framework for Understanding and Designing Telepresence" (2015)](https://dl.acm.org/doi/10.1145/2675133.2675141)
+
+
+
