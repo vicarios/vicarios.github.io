@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://vicarios.github.io/documentation/getting-started/">
+        <link rel="canonical" href="https://vicarios.github.io/documentation/Getting-started/">
       
       
         <link rel="prev" href="..">
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#2026-summer-school-on-telerobotics-and-cyborg-technologies" class="md-skip">
+        <a href="#what-this-interface-does" class="md-skip">
           Skip to content
         </a>
       
@@ -342,6 +342,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -358,6 +376,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basic Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-begin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before You Begin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -464,6 +534,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basic Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-begin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before You Begin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -479,18 +590,50 @@
 
 
 
-<h1 id="2026-summer-school-on-telerobotics-and-cyborg-technologies">2026 Summer School on Telerobotics and Cyborg Technologies<a class="headerlink" href="#2026-summer-school-on-telerobotics-and-cyborg-technologies" title="Permanent link">&para;</a></h1>
-<h1 id="olmo-ui-concepts-for-teleoperators">Olmo UI concepts for Teleoperators<a class="headerlink" href="#olmo-ui-concepts-for-teleoperators" title="Permanent link">&para;</a></h1>
-<ul>
-<li>Theoretical part of UI design ≈(2.5 hours):</li>
-<li>User-Centred Design</li>
-<li>Gestalt Principles of Design</li>
-<li>Atomic design method</li>
-<li>10 Usability Heuristics for User Interface Design</li>
-<li>Dark mode UI design</li>
-</ul>
-<h1 id="mohammad-and-yonas-about-unreal">Mohammad and Yonas about unreal<a class="headerlink" href="#mohammad-and-yonas-about-unreal" title="Permanent link">&para;</a></h1>
+<h1 id="what-this-interface-does">What This Interface Does<a class="headerlink" href="#what-this-interface-does" title="Permanent link">&para;</a></h1>
 <p><img alt="alt text" src="../image_2.png" /></p>
+<p>The UI provides the operator-facing layer for the telepresence and teleoperation software stack. It is used to:</p>
+<ul>
+<li>connect to the robot, simulator, or middleware;</li>
+<li>view sensor and environment information;</li>
+<li>monitor robot state and communication status;</li>
+<li>select available control modes;</li>
+<li>send commands to the remote system;</li>
+<li>support safe and understandable interaction with the remote environment.</li>
+</ul>
+<h2 id="basic-workflow">Basic Workflow<a class="headerlink" href="#basic-workflow" title="Permanent link">&para;</a></h2>
+<p>A typical session follows this sequence:</p>
+<ol>
+<li>Start the backend communication components.</li>
+<li>Launch the robot, simulator, or remote environment.</li>
+<li>Open the telepresence UI.</li>
+<li>Connect the UI to the active session.</li>
+<li>Verify incoming feedback streams.</li>
+<li>Select a control mode.</li>
+<li>Begin teleoperation.</li>
+<li>Monitor system status and stop safely when finished.</li>
+</ol>
+<h2 id="before-you-begin">Before You Begin<a class="headerlink" href="#before-you-begin" title="Permanent link">&para;</a></h2>
+<p>Before launching the UI, make sure you have:</p>
+<ul>
+<li>installed the required software dependencies;</li>
+<li>cloned or downloaded the required repositories;</li>
+<li>configured the communication middleware;</li>
+<li>confirmed that the robot or simulator is running;</li>
+<li>verified that the required network ports, services, or topics are available.</li>
+</ul>
+<h2 id="background-reading">Background Reading<a class="headerlink" href="#background-reading" title="Permanent link">&para;</a></h2>
+<p>This documentation uses terminology from the broader telepresence and teleoperation literature. The IEEE Telepresence Committee maintains a curated resources page with event recordings, books, journals, and articles on telepresence technologies.</p>
+<p>Recommended starting points:</p>
+<ul>
+<li><a href="https://telepresence.ieee.org/resources/">IEEE Telepresence Resources</a></li>
+<li><a href="https://spectrum.ieee.org/telepresence-a-manifesto">Marvin Minsky, "Telepresence" / "Telepresence Manifesto" (1980; IEEE Spectrum republication)</a></li>
+<li><a href="https://direct.mit.edu/pvar/article/1/1/120/58751/Musings-on-Telepresence-and-Virtual-Presence">Thomas B. Sheridan, "Musings on Telepresence and Virtual Presence" (1992)</a></li>
+<li><a href="https://www-cdr.stanford.edu/telepresence/definition.html">Stanford CDR, "Telepresence Definitions"</a></li>
+<li><a href="https://journals.sagepub.com/doi/10.1518/001872098779591386">John V. Draper, David B. Kaber, and John M. Usher, "Telepresence" (1998)</a></li>
+<li><a href="https://academic.oup.com/ct/article-abstract/14/1/27/4110793">Kwan Min Lee, "Presence, Explicated" (2004)</a></li>
+<li><a href="https://dl.acm.org/doi/10.1145/2675133.2675141">Irene Rae, Gina Venolia, John C. Tang, and David Molnar, "A Framework for Understanding and Designing Telepresence" (2015)</a></li>
+</ul>
 
 
 

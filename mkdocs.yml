@@ -12,7 +12,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+  - Getting Started: Getting-started.md
   - Software Plugins: Software-plugins.md
   - Publications: publications.md
   - Contact: Contact.md
