@@ -3,7 +3,7 @@
 ![alt text](image.png)
 
 
-This documentation supports the software used in the telepresence and teleoperation workflow. Before launching the user interface, it is useful to distinguish three closely related ideas: **teleoperation**, **telepresence**, and **interfaces for telepresence and teleoperation**.
+This documentation provides links to the software, as well as information about the robots and the interface design. Before working with the software, it is important to understand two closely related concepts: teleoperation and telepresence. This includes their similarities and differences, as well as how to design effective interfaces for them.
 
 **Teleoperation** refers to the control of a machine, robot, or remote system from a distance. In a teleoperation scenario, a human operator sends commands to a remote device and receives feedback from sensors, cameras, robot state, or other data streams. The main goal is to enable the operator to act on a remote environment without being physically located there.
 

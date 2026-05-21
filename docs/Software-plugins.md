@@ -1,28 +1,24 @@
-# Software Repositories
 
-The Vicarios ecosystem consists of several interconnected repositories designed for high-performance robotics, real-time middleware, and immersive simulation.
+The following collection of software and digital tools can support the design, prototyping, and documentation of user interfaces for robotic applications.
+
+## UI- Design Tools
+
+- **Figma:** is a collaborative digital design platform used to create, prototype, and document user interfaces and user experiences for websites, apps, and interactive systems. Create an account here [here](https://www.figma.com/login?locale=en-us)
+  
+- **Story Tribe App:** is a visual storytelling creator that enables users to quickly build illustrated stories, storyboards, and narrative scenes using customizable characters and environments.  Create an account here [here](https://storytribeapp.com)
+  
+- **Color Hunt:** is an online platform that provides curated color palettes for designers and creatives to inspire and support visual design projects. Check it out here [here](https://colorhunt.co)
+
+- **Google Fonts Icons (Material Symbols & Icons):** is an online library of customizable open-source icons provided by Google for use in digital interfaces, applications, and web design projects. Check it out here [here](https://fonts.google.com/icons)
 
 ---
 
-## 🚀 Core Repositories
+## Unreal Engine tools
 
-### [Vicarios Robots](https://github.com/vicarios/VicariosRobots)
-**Hardware Control & Configuration**  
-The central repository for robot-specific drivers and hardware abstraction layers. It provides the necessary interface logic to connect physical robotic platforms with high-level control software.
+* **Hardware Control & Configuration:** The central repository for robot-specific drivers and hardware abstraction layers. It provides the necessary interface logic to connect physical robotic platforms with high-level control software. Clone it from [here](https://github.com/vicarios/VicariosRobots)
 
-*   **Integration:** Works in tandem with the [Robot Importer](https://github.com/vicarios/RobotImporterUnreal) for digital twin synchronization.
-*   **Support:** Open structured issues for hardware-specific bugs [here](https://github.com/vicarios/VicariosRobots/issues/new?template=request-form.yml).
+- **Middleware & Communication:** A streamlined, lightweight C++ interface for Data Distribution Service (DDS) messaging. It abstracts the complexity of standard DDS, making it easier to implement low-latency communication in ROS 2 environments. Clone it from [here](https://github.com/vicarios/EasyDDS)
 
-### [EasyDDS](https://github.com/vicarios/EasyDDS)
-**Middleware & Communication**  
-A streamlined, lightweight C++ interface for Data Distribution Service (DDS) messaging. It abstracts the complexity of standard DDS, making it easier to implement low-latency communication in ROS 2 environments.
 
-*   **Performance:** Optimized for real-time telemetry and command streaming.
-*   **Support:** Open structured issues for middleware bugs [here](https://github.com/vicarios/EasyDDS/issues/new?template=request-form.yml).
+- **Simulation & Visualization:** A specialized plugin for Unreal Engine 5 that facilitates the import and simulation of complex robotic models (URDF/MJCF). It is essential for projects involving immersive teleoperation and high-fidelity rendering. Clone it from [here](https://github.com/vicarios/RobotImporterUnreal)
 
-### [Robot Importer (Unreal)](https://github.com/vicarios/RobotImporterUnreal)
-**Simulation & Visualization**  
-A specialized plugin for Unreal Engine 5 that facilitates the import and simulation of complex robotic models (URDF/MJCF). It is essential for projects involving immersive teleoperation and high-fidelity rendering.
-
-*   **Features:** Supports foveated rendering and real-time unicasting.
-*   **Support:** Open structured issues for simulation bugs [here](https://github.com/vicarios/RobotImporterUnreal/issues/new?template=request-form.yml).

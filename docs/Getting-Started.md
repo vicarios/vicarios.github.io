@@ -1,38 +1,38 @@
 # What This Interface Does
 
+Telepresence interfaces are designed to give the user a stronger sense of presence in a remote environment. Their purpose is not only to control a robot or simulate, but also to help the user perceive, understand, and act within a distant space as if they were physically involved in the task.
+
 ![alt text](image_2.png)
 
-The UI provides the operator-facing layer for the telepresence and teleoperation software stack. It is used to:
+As seen in the picture above, telepresence software should provide tools to:
 
-- connect to the robot, simulator, or middleware;
-- view sensor and environment information;
-- monitor robot state and communication status;
-- select available control modes;
-- send commands to the remote system;
-- support safe and understandable interaction with the remote environment.
+- **Networking tools:** The user should be able to establish and verify a connection with the remote system using a middleware layer such as ROS, DDS, or another communication framework.
 
-## Basic Workflow
+- **Rendering tools:** The interface should display relevant feedback from the remote environment, such as camera streams, depth data, maps, telemetry, force or torque readings, object information, and other sensor signals that help the user understand what is happening remotely.
 
-A typical session follows this sequence:
+- **Monitor robot state tools:** The user should be able to see whether the robot is active, idle, moving, stopped, disconnected, or in an error state. Communication indicators such as latency, connection quality, topic availability, and data update rates are important for building trust in the system.
 
-1. Start the backend communication components.
-2. Launch the robot, simulator, or remote environment.
-3. Open the telepresence UI.
-4. Connect the UI to the active session.
-5. Verify incoming feedback streams.
-6. Select a control mode.
-7. Begin teleoperation.
-8. Monitor system status and stop safely when finished.
+- **Teleoperation control tools:** Teleoperation may involve different levels of control, such as manual control, assisted control, autonomous navigation, shared control, or predefined task execution. The interface should make these modes visible and allow the user to switch between them safely.
 
-## Before You Begin
+- **Video streaming tools:** The interface should provide real-time video streaming to give the operator a direct visual connection to the remote environment. 
 
-Before launching the UI, make sure you have:
 
-- installed the required software dependencies;
-- cloned or downloaded the required repositories;
-- configured the communication middleware;
-- confirmed that the robot or simulator is running;
-- verified that the required network ports, services, or topics are available.
+## User-Centred Interface Design
+
+The following PDF presents the theoretical foundations of designing an effective telepresence user interface. In particular, it should help the operator answer four basic questions:
+
+1. What is happening in the remote environment?
+2. What is the robot doing right now?
+3. What actions are available to me?
+4. How can I confirm that my action was successful?
+   
+<iframe
+  src="../UI-Design.pdf"
+  width="100%"
+  height="450px"
+  style="border: 1px solid #ddd; border-radius: 8px;">
+</iframe>
+
 
 ## Background Reading
 
