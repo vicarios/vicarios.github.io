@@ -22,3 +22,15 @@ The following collection of software and digital tools can support the design, p
 
 - **Simulation & Visualization:** A specialized plugin for Unreal Engine 5 that facilitates the import and simulation of complex robotic models (URDF/MJCF). It is essential for projects involving immersive teleoperation and high-fidelity rendering. Clone it from [here](https://github.com/vicarios/RobotImporterUnreal)
 
+---
+
+## Robots 
+
+The following robots will be available during the summer school. This section provides links to their corresponding ROS 2 packages and related software resources.
+
+* **Limo Robot:** ROS2 humble packages for Limo can be found in this link and  clone it from [here](https://github.com/agilexrobotics/limo_ros2)
+
+- **Scout Robot:** ROS2 humble driver packages for the chassis of can be found  [here](https://github.com/westonrobot/scout_ros2)
+
+
+- **Booster Robot:** ROS2 humble package for robot control can be found [here](https://github.com/BoosterRobotics/robocup_demo) and booster robot descriptions [here](https://github.com/BoosterRobotics/booster_assets)
