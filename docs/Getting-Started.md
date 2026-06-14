@@ -33,12 +33,29 @@ The following PDF presents the theoretical foundations of designing an effective
   style="border: 1px solid #ddd; border-radius: 8px;">
 </iframe>
 
+## Data Distribution Service for Distributed Robotics Communication
+
+The following PDF presents the fundamentals of the Data Distribution Service (DDS) and its role in distributed communication for robotics and telerobotics systems. In particular, it will help the reader answer four basic questions:
+
+1. What is DDS and why is it useful for distributed software systems?
+
+2. How do publishers, subscribers, topics, DataWriters, and DataReaders communicate with each other?
+
+3. How can Fast DDS be installed, linked, and used to build simple communication examples?
+
+4. Which transport and discovery mechanisms are available, and how should they be selected for different network scenarios?
+
+
+<iframe
+  src="../Data Distribution Service.pdf"
+  width="100%"
+  height="450px"
+  style="border: 1px solid #ddd; border-radius: 8px;">
+</iframe>
 
 ## Background Reading
 
-This documentation uses terminology from the broader telepresence and teleoperation literature. The IEEE Telepresence Committee maintains a curated resources page with event recordings, books, journals, and articles on telepresence technologies.
-
-Recommended starting points:
+This documentation uses terminology from the broader telepresence and teleoperation literature. The IEEE Telepresence Committee maintains a curated resources page with event recordings, books, journals, and articles on telepresence technologies. Recommended starting points can be found using the following links:
 
 - [IEEE Telepresence Resources](https://telepresence.ieee.org/resources/)
 - [Marvin Minsky, "Telepresence" / "Telepresence Manifesto" (1980; IEEE Spectrum republication)](https://spectrum.ieee.org/telepresence-a-manifesto)
