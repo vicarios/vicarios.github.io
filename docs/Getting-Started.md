@@ -53,6 +53,19 @@ The following PDF presents the fundamentals of the Data Distribution Service (DD
   style="border: 1px solid #ddd; border-radius: 8px;">
 </iframe>
 
+
+## Design Rules and Requirements
+
+The foolowing document outlines the Unified User Interface Design Challenge rules, each team is recommended to read and follow the instruction.
+
+<iframe
+  src="../2026_UUI_Telepresence_Challenge_Guidelines.pdf"
+  width="100%"
+  height="450px"
+  style="border: 1px solid #ddd; border-radius: 8px;">
+</iframe>
+
+
 ## Background Reading
 
 This documentation uses terminology from the broader telepresence and teleoperation literature. The IEEE Telepresence Committee maintains a curated resources page with event recordings, books, journals, and articles on telepresence technologies. Recommended starting points can be found using the following links:
